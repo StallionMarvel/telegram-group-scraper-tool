@@ -1,0 +1,16 @@
+{
+  "name": "telegram-group-scraper-tool",
+  "version": "1.0.0",
+  "description": "A tool to scrape members from Telegram groups using MTProto API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/test.js"
+  },
+  "dependencies": {
+    "input": "^1.0.1",
+    "mtproto": "^0.2.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
